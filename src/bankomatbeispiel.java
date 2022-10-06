@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class bankomatbeispiel {
     public static void main(String[] args) {
         int balance = 0;
