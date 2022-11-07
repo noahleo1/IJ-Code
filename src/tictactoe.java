@@ -97,6 +97,7 @@ public class tictactoe {
                         System.out.println();
 
 
+
                     }}
                 if (activePlayer == 2) {
                     System.out.println("Enter Your Choice for the Row Player 2 ");
