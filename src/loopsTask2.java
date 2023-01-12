@@ -1,4 +1,4 @@
-public class Loopsaufgabe2 {
+public class loopsTask2 {
 
     public static void main(String[] args) {
         int adder = 0;

@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class ifbedingung {
+public class ifStatement {
     public static void ifbedingungen(String[] args) {
 
         Random random = new Random();

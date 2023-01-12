@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class würfelspiel {
+public class cubeGame {
     public static void main(String[] args) {
         int winPlayer = 0;
         int counter = 0;

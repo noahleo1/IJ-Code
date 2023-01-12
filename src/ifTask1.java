@@ -2,7 +2,7 @@ package at.ran.basics;
 
 import java.util.Random;
 
-public class ifaufgabe1 {
+public class ifTask1 {
     public static void main(String[] args) {
         // Erstelle eine Zufallszahl zwischen 0 und 100
         Random random = new Random();

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bankomatbeispiel {
+public class cashMashine {
     public static void main(String[] args) {
         int balance = 0;
         System.out.println("Wählen sie die gewünschte Funktion:");
