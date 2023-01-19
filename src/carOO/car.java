@@ -1,6 +1,6 @@
-package OO.car.car;
+package carOO;
 
-public class car01_02_03 {
+public class car {
     public void breack() {
         System.out.println("Ich bremse");
     }
@@ -35,7 +35,7 @@ public class car01_02_03 {
 
     private String color;
 
-    public car01_02_03(int fc, String b, String s){
+    public car(int fc, String b, String s){
         this.fuelConsuption = fc;
         this.brand = b;
         this.serialNumber = s;

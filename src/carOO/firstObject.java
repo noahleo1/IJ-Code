@@ -1,4 +1,4 @@
-package OO.car.car;
+package carOO;
 
 public class firstObject {
     public static void main(String[] args) {
@@ -40,7 +40,7 @@ public class firstObject {
     }
 }
 */
-        car01_02_03 c3 = new car01_02_03(16, "dsasgd", "asdg");
+        car c3 = new car(16, "dsasgd", "asdg");
 
         System.out.println(c3.serialNumber);
     }
