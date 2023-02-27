@@ -1,5 +1,5 @@
 package carOO;
-
+/*
 public class car {
     public void breack() {
         System.out.println("Ich bremse");
@@ -40,6 +40,6 @@ public class car {
         this.brand = b;
         this.serialNumber = s;
     }
-
+/*
 
 }

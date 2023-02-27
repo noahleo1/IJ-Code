@@ -8,7 +8,9 @@ public class car {
     public int fuelAmount;
     public String brand;
     public String serialNumber;
-    private String color;
+    public String color;
+
+
 
     public car(int fuelConsuption, int totalFuelAmount, int fuelAmount, String brand, String serialNumber, String color) {
         this.fuelConsuption = fuelConsuption;
@@ -17,6 +19,11 @@ public class car {
         this.brand = brand;
         this.serialNumber = serialNumber;
         this.color = color;
+
+    }
+
+    public car() {
+
     }
 
     public void breack() {
@@ -29,7 +36,7 @@ public class car {
     }
 
     public void superboost() {
-        if (this.totalfuelAmount * 0.1 < this.fuelAmount) {
+        if (this.totalFuelAmount * 0.1 < this.fuelAmount) {
             System.out.println("SupperBoostMode is possible");
         } else {
             System.out.println("not enough fuel for Superboost");

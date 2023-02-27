@@ -1,9 +1,11 @@
+/*
 package carOO;
 
 public class main {
     public static void main(String[] args) {
+        /*
         int a = 7;
-/*
+
         car c1 = new car();
         c1.brand = "Audi";
         c1.fuelConsuption = 7;
@@ -39,10 +41,10 @@ public class main {
     public static void turboBoost(String[] Args) {
     }
 }
-*/
+
         car c3 = new car(16, "dsasgd", "asdg");
 
-        System.out.println(c3.serialNumber);
+        System.out.println(c3.serialNumber); */
     }
 }
 
