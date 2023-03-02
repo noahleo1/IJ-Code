@@ -9,7 +9,7 @@ public class car {
     public String brand;
     public String serialNumber;
     public String color;
-
+    public int totalfuelAmount;
 
 
     public car(int fuelConsuption, int totalFuelAmount, int fuelAmount, String brand, String serialNumber, String color) {
