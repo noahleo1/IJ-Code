@@ -11,9 +11,10 @@ public class main {
         r1.addbatteries(b2);
 
         r1.getStatus();
-        r1.turnOff();
-        r1.turnOff();
+        r1.turnOn();
+
         r1.getStatus();
+        r1.turnOff();
     }
 
 }
