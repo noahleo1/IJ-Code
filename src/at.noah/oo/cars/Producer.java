@@ -11,4 +11,16 @@ public class Producer {
         this.creatingCountry = creatingCountry;
         this.discount = discount;
     }
+
+    public String getProducerName() {
+        return producerName;
+    }
+
+    public String getCreatingCountry() {
+        return creatingCountry;
+    }
+
+    public double getDiscount() {
+        return discount;
+    }
 }
