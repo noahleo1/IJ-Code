@@ -11,7 +11,7 @@ public class Producer {
         this.creatingCountry = creatingCountry;
         this.discount = discount;
     }
-
+//..
     public String getProducerName() {
         return producerName;
     }

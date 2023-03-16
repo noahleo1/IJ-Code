@@ -28,7 +28,7 @@ public class car {
         double newPrice = this.baseprice - (this.baseprice * this.producer.getDiscount());
         System.out.println("Der neue Preis  beträgt: " + newPrice + "€");
     }
-
+//..
     public void newConsumption() {
         if (this.kilometres >= 50000) {
             double newFuelConsumption = this.baseConsumption + (this.baseConsumption * 0.098);
