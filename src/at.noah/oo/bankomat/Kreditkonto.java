@@ -17,14 +17,14 @@ public class Kreditkonto {
         }
 
         public void showBalance() {
-            System.out.println("Der aktuelle Kontostand beträgt: " + this.balance + "€");
+            System.out.println("Der aktuelle Kontostand des Kreditkontos beträgt: " + this.balance + "€");
         }
 
 
 
         public void withdraw(double withdrawValue) {
             this.balance = this.balance - withdrawValue;
-            System.out.println("Es wurde Geld abgehoben, Der neue Kontostand beträgt nun: " + this.balance + "€");
+            System.out.println("Es wurde Geld abgehoben, Der neue Kontostand des Kreditkontos beträgt nun: " + this.balance + "€");
         }
     }
 
